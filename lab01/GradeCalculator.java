@@ -6,7 +6,7 @@ public class GradeCalculator {
         Scanner scanner = new Scanner(System.in);
 
         // Ask user for marks
-        System.out.print("Enter marks: ");
+        System.out.print("Please Enter marks: ");
         int marks = scanner.nextInt();
 
         // Calculate grade based on marks
@@ -26,7 +26,7 @@ public class GradeCalculator {
         }
 
         // Print grade
-        System.out.println("Grade: " + grade);
+        System.out.println("The Grade: " + grade);
 
         // Close scanner
         scanner.close();

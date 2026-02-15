@@ -10,7 +10,7 @@ public class DiscountCalculator {
         Scanner scanner = new Scanner(System.in);
 
         // Ask user for quantity
-        System.out.print("Enter the quantity of items: ");
+        System.out.print("Please Enter the quantity of items: ");
         int quantity = scanner.nextInt();
 
         // Calculate total cost
@@ -22,7 +22,7 @@ public class DiscountCalculator {
         }
 
         // Print total cost
-        System.out.println("Total cost: " + totalCost);
+        System.out.println("The Total cost: " + totalCost);
 
         // Close scanner
         scanner.close();
