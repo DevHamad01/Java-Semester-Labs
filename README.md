@@ -12,6 +12,11 @@ Each lab is organized into its own dedicated folder:
     - `GradeCalculator.java`: Determines the grade based on student marks.
     - `RectangleChecker.java`: Checks whether a rectangle is a square or not based on dimensions.
 
+- **Lab02**: Multithreading & Concurrency
+    - `BankAccount.java`: Demonstrates thread synchronization using `synchronized` methods for concurrent deposit and withdrawal operations on a shared bank account.
+    - `ConcurrentCollectionsDemo.java`: Illustrates the use of `ConcurrentHashMap` and `CopyOnWriteArrayList` with multiple producer-consumer threads for thread-safe collection operations.
+    - `ThreadCommunicationDemo.java`: Implements the Producer-Consumer pattern using `wait()` and `notify()` for inter-thread communication with a bounded buffer.
+
 - *(More labs will be added as the semester progresses)*
 
 ## Topics Covered
